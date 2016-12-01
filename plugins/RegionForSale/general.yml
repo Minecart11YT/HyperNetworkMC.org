@@ -1,0 +1,36 @@
+#language: Name of the language.yml  -  So for French this would be "fr" (-> fr.yml)
+#          There are some languages available on the project-site
+#          If you want to stick to the internal defaults set this to "[default-en]"
+language: "[default-en]"
+
+intervals:
+   #update: Sets the interval in which the plugin should check if rent or taxes have to be payed and the config-files are auto-saved (in minutes).
+    update: 15
+   #collect_money: The interval in which the taxes / the rent should be collected (in minutes) after a user purchased a region.
+    collect_money: 1440
+
+
+#freeze_while_offline: Don't steal the players money if the server wasn't even online / the plugin was disabled.
+freeze_while_offline: true
+
+check_for_updates: true
+
+#global_econ_account: If you want to make use of a global (bank-) account fill it's name here (e.g. money taken from players will be payed to it).
+#global_econ_account: If it's a bank-account put "bank." in front of the name
+global_econ_account: ""
+
+#player-bank-accounts: Tries to find and withdraw money from a players bank account instead of wallet.
+player-bank-accounts:
+    use-if-owner: false
+    use-if-member: false
+
+#sign-tag: Tag in the first row of a sign to identify it for this plugin (Another one could be [R.F.S], for example).
+sign-tag: "[RegionMarket]"
+
+auto-set:
+   #ground-level: Defining a new tradeable region will automatically set it's ground level to the players y-position
+    ground-level: false
+   #warp: Defining a new tradeable region will automatically set it's warp point to the players position
+    warp: false
+   #owner: If the WorldGuard region has owners defined the first one returned will become the owner in RegionForSale
+    owner: false

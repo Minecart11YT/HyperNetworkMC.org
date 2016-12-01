@@ -1,0 +1,347 @@
+# RegionForSale language config file
+#
+# Instructions:
+#  - Format the text by using "$[FORMAT_ATTRIBUTE]".
+#    See  http://forward.phoenix-iv.de/mc-chatcolor  for possible values.
+#  - Use $0 - $9 to display variables. They are always described above if available.
+#
+
+
+# If you created this file / translation you are allowed to put your name here.
+# (Preferably your name on BukkitDev so that it's easy to find)
+META_AUTHOR: ""
+
+
+# ----------------------------------- Various -------------------------------------
+
+NO_PERMISSION: "$[RED]You don't have permission to do this"
+
+# Example: "Size: 3000 Blocks";  Unit for volume
+BLOCKS: "Blocks"
+
+# Example: //rg list -> "Regions you own:" "None"
+NONE: "$[GRAY]None"
+
+RELOADED: "$[DARK_GREEN][RegionForSale] Reload complete"
+
+PLAYER_NOT_FOUND: "$[RED]Player not found."
+
+# Shown when a player (with permission) joins the server.
+# A link to the website is printed afterwards.
+UPDATE_AVAILABLE: "$[DARK_GREEN][RegionForSale] An update is available!"
+
+LEASE_EXPIRED: "$[RED]The lease for region '$0' expired."
+
+
+
+
+
+# --------------------------------- Money-related ---------------------------------
+
+# Szenario: Player gets money (e.g. selling a region).
+# $0: Ammount
+DEPOSITION: "$[DARK_GREEN]+ $$0"
+
+# Displayed to player (if online) when rent/taxes are collected of when he buys a region.
+# $0: (positive) Ammount
+# $1: Region-name
+COLLECTING_MONEY: "$[RED][RegionForSale] You paid $$0 for region '$1'"
+
+# $0: Region-name
+CANT_PAY_TAXES: "$[RED]You can't pay your taxes - region '$0' sold!"
+CANT_PAY_RENT: "$[RED]You can't pay your rent - region '$0' freed!"
+
+# Shown when a player who wasn't able to pay for his regions joins the server.
+# All regions will be listed below.
+SEIZED_REGIONS: "$[RED]Sorry, but you were unable to pay for some of your regions:"
+
+
+
+
+
+# ---------------------------------- Sign placed ----------------------------------
+
+SIGN_DETECTED: "$[DARK_GREEN]Sign detected"
+SIGN_DETECTED_INFO: "$[GRAY]Right-click a block within a region to connect"
+
+
+
+
+
+# --------------------------- Region-Sign link/unlink -----------------------------
+# Szenario: - Right-click a block to link it with a sign
+#           - Destroy a sign which is linked to a region
+
+NO_REGION_FOUND: "No region found at this place"
+NO_REGION_BUT_PARENT: "$[RED]Only parent-regions found at this place:"
+MULTIPLE_REGIONS_FOUND: "$[RED]More than one possible region found:"
+MULTIPLE_REGIONS_HINT: "$[WHITE]Use $[GRAY]//rg addParent <region> $[WHITE]to mark superior regions as global, then retry"
+
+# $0: Name of region
+SIGN_CONNECTED: "$[DARK_GREEN]Connected to region '$0'"
+
+SIGN_DOES_NOT_EXIST: "$[RED]The sign you wanted to connect doesn't exist anymore."
+
+# $0: Name of region
+SIGN_DESTROYED: "$[DARK_GREEN]Removed connection to region '$0'"
+
+SIGN_WASNT_CONNECTED: "$[GRAY]The sign wasn't connected to any region"
+
+# $0: Ammount of signs
+NOW_X_SIGNS: "$[GRAY]There are now $0 signs connected to this region"
+
+
+
+
+
+# -------------------------------- Sign texts ---------------------------------------
+# Notice that a line can only hold 15 letters
+
+# $0: Sale price
+# $1: Rent price
+# $2: Size
+# $3: Region name
+S_FOR_SALE_1: "For sale!"
+S_FOR_SALE_2: "Price: $$0"
+S_FOR_SALE_3: "$2"
+
+# $0: Sale price
+# $1: Rent price
+# $2: Size
+# $3: Region name
+S_FOR_RENT_1: "For rent!"
+S_FOR_RENT_2: "Price: $$1"
+S_FOR_RENT_3: "$2"
+
+# $0: Sale price
+# $1: Rent price
+# $2: Size
+# $3: Region name
+S_FOR_BOTH_1: "For sale/rent!"
+S_FOR_BOTH_2: "$$0 | $$1"
+S_FOR_BOTH_3: "$2"
+
+# $0: Owner
+# $1: Region name
+# $2: Size
+S_TAKEN_1: ""
+S_TAKEN_2: "$0"
+S_TAKEN_3: ""
+
+
+
+
+
+# -------------------------------------- Region-Info --------------------------------------
+# Shown when someone clicks a sign
+#
+# $0: The main property - e.g. for R_INFO_NAME the region name
+# $1..: Explained above the string, if used
+
+R_INFO_HEADLINE: "$[DARK_PURPLE]|---------------- Region-Info ----------------|"
+R_INFO_NAME: "$[DARK_PURPLE]| Region name:  $[WHITE]$0"
+
+# $1: Status (bought/rented), defined for "//rg list" as BOUGHT and RENTED
+R_INFO_OWNER: "$[DARK_PURPLE]| Owner:  $[WHITE]$0 $[GRAY]$1"
+
+R_INFO_MEMBERS: "$[DARK_PURPLE]| Members:  $[WHITE]$0"
+
+# $1: Depth. If no ground-level is set this will be "?"
+R_INFO_SIZE: "$[DARK_PURPLE]| Size:  $[WHITE]$0"
+
+R_INFO_BUYING_PRICE: "$[DARK_PURPLE]| Buying price:  $[WHITE]$$0"
+R_INFO_SELLING_PRICE: "$[DARK_PURPLE]| Selling price:  $[WHITE]$$0"
+R_INFO_TAXES: "$[DARK_PURPLE]| Taxes:  $[WHITE]$$0"
+R_INFO_RENT: "$[DARK_PURPLE]| Rent:  $[WHITE]$$0"
+
+R_INFO_NEXT_WITHDRAWAL: "$[DARK_PURPLE]| Next withdrawal:  $[WHITE]$0"
+R_INFO_LEASE_EXPIRY: "$[DARK_PURPLE]| Lease expiry:  $[WHITE]$0"
+
+# $0: Answer if the region can be bought/rented. The answers "yes" and "no" are defined by
+#     R_INFO_TRUE and R_INFO_FALSE, which can be found below.
+# $1: Additional information. Strings for this are defined in the section below.
+#      - If the player can't rent/buy the region this is the reason why.
+#      - Only for renting: Time-limit, if set.
+R_INFO_CAN_BUY: "$[DARK_PURPLE]| You can buy this:  $[WHITE]$0 $[GRAY]$1"
+R_INFO_CAN_RENT: "$[DARK_PURPLE]| You can rent this:  $[WHITE]$0 $[GRAY]$1"
+
+R_INFO_FOOTER: "$[DARK_PURPLE]|-------------------------------------------|"
+
+
+# -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+
+# If region has no owner:
+R_INFO_OWNER_NONE: "None"
+
+# R_INFO_CAN_<BUY|RENT> yes/no
+R_INFO_TRUE: "Yes"
+R_INFO_FALSE: "No"
+
+# R_INFO_CAN_<BUY|RENT> reasons
+R_INFO_CANNOT_TAKEN: "(Already taken)"
+R_INFO_CANNOT_DISABLED: "(Disabled)"
+R_INFO_CANNOT_PERMISSION: "(No permission)"
+R_INFO_CANNOT_MAX_REACHED: "(Maximal amount reached)"
+R_INFO_CANNOT_PRICE: "(Not enough money)"
+
+# $0: The time limit
+R_INFO_RENT_TIME_LIMIT: "($0)"
+
+
+
+
+
+# --------------------------------------- OnCommand ---------------------------------------
+
+
+# An integer value was expected in a command
+# $0: Faulty user input
+CMD_ERROR_INTEGER: "$[RED]'$0' is not a valid integer value."
+
+
+# /rfs forgetPlayer <player-name>
+# $0: Player name
+PLAYER_DATA_REMOVED: "$[DARK_GREEN]Removed all data of player '$0'"
+
+
+# /rfs reloadSigns
+# $0: World name
+SIGNS_RELOADED: "$[DARK_GREEN]Reloaded all signs"
+WORLD_SIGNS_RELOADED: "$[DARK_GREEN]Reloaded signs in world '$0'"
+
+
+# No region in focus or of wrong type
+# Example: parent-region focused and using "//region buy"
+REGION_OF_WRONG_TYPE: "$[RED]No region in focus / region is of the wrong type"
+
+
+# //region < select | addParent | remove >
+#
+# $0: Region name
+REGION_SELECTED: "$[DARK_GREEN]Region '$0' selected"
+REGION_DELETED: "$[DARK_GREEN]Region '$0' deleted"
+#
+REGION_ADDED: "$[DARK_GREEN]Region added"
+REGION_NOT_FOUND: "$[RED]Region not found"
+WORLD_NOT_FOUND: "$[RED]World not found"
+
+
+# //region < buy | rent >
+#
+PURCHASED: "$[DARK_GREEN]You now own this region"
+#
+# $0: reason (Reasons defined above at "Region-Info")
+CANT_BUY: "$[RED]Sorry, but you can't buy this region $[GRAY]$0"
+CANT_RENT: "$[RED]Sorry, but you can't rent this region $[GRAY]$0"
+
+
+# //region < sell | unrent >
+#
+NOT_OWNER: "$[RED]You don't own this region!"
+REGION_SOLD: "$[DARK_GREEN]You don't own this region anymore"
+REGION_NOT_BOUGHT: "$[RED]This region is rented. Please use $[GRAY]//region unrent $[RED]instead."
+REGION_NOT_RENTED: "$[RED]This region is bought. Please use $[GRAY]//region sell $[RED]instead."
+#
+# $0: Region
+REBUILD_WARNING: "$[GOLD]Attention: Region '$0' will be rebuilded; blocks will get lost! Retype the command to confirm."
+
+
+# //region sell <player> <price>
+# $0: Region
+# $1: The other player
+# $2: Price
+OUTGOING_OFFER: "$[DARK_GREEN]You offered region '$0' to $1 ($$2)"
+INCOMING_OFFER: "$[DARK_GREEN][RegionForSale] $1 offers you region '$0' for $$2. Type $[GRAY]//rg accept $[DARK_GREEN]if you want to buy it."
+
+
+# //region giveto <player>
+#
+# $0: Region
+# $1: The other player
+OUTGOING_GIVETO: "$[DARK_GREEN]You offered region '$0' to $1"
+#
+# $0: Region
+# $1: The other player
+# $2: Status (RENTED/BOUGHT), defined for "//region list"
+INCOMING_GIVETO: "$[DARK_GREEN][RegionForSale] $1 offers you region '$0' $2. Type $[GRAY]//rg accept $[DARK_GREEN]if you want to take it."
+
+
+# //region list [playerName]
+#
+# $0: The otional player-name
+REGION_LIST_OTHERS: "$[DARK_PURPLE]Regions owned by $0:"
+#
+REGION_LIST: "$[DARK_PURPLE]Regions you own:"
+RENTED: "(rented)"
+BOUGHT: "(bought)"
+
+
+# //region listall [world]
+#
+# Headlines for the listall-command
+REGION_LISTALL: "$[DARK_PURPLE]Regions:"
+REGION_LISTALL_PARENTS: "$[DARK_PURPLE]Parent-regions:"
+#
+# Shown if one of the regions has no sign connected to it. Pay regard to the whitespace at the beginning,
+# it indents the message so it's at the same level as the region-list.
+REGION_LISTALL_NO_SIGNS: "$[GRAY] Regions without a sign are colored gray"
+
+
+# //region find
+NEAREST_REGIONS: "$[DARK_PURPLE]These are the nearest regions you can have:"
+
+
+# //region locate [regionName]
+# $0: Region name
+REGION_LOCATED: "$[DARK_GREEN]Your compass now points towards region '$0'"
+
+
+# //region set <key> [value]
+CHANGE_APPLIED: "$[DARK_GREEN]Change applied"
+INVALID_VALUE: "$[RED]The given value isn't valid"
+
+
+# //region set rebuild-operations + <operation ...>
+# $0: Faulty user input
+RBP_ERROR_ITEM_NOT_A_BLOCK: "$[RED]The item given by '$0' is not a block and can't be placed."
+RBP_ERROR_ITEM_UNKNOWN: "$[RED]Unknown item '$0'."
+RBP_ERROR_INVALID_Y_VALUE: "$[RED]The y-value given by '$0' could not be resolved."
+RBP_ERROR_OPERATION_UNKNOWN: "$[RED]The operation '$0' is unknown."
+RBP_ERROR_PARAMETER_AMOUNT: "$[RED]The amount of parameters doesn't fit."
+
+
+# //region set rebuild-operations - <operation ...>
+RBP_ERROR_MULTIPLE_HITS: "$[RED]Multiple hits found. Please define your request more precisely."
+RBP_ERROR_NO_HIT: "$[RED]No matching operation found."
+
+
+# //region rebuild
+CUBOID_ONLY: "$[RED]This operation works with cuboid-regions only"
+GROUNDLEVEL_NOT_SET: "$[RED]Set a ground-level first"
+
+
+# //region force-rollback
+ERROR_NO_ROLLBACK_FILE: "$[RED]There is no rollback file for this region"
+
+
+# //region evict
+PLAYER_EVICTED: "$[DARK_GREEN]Region freed"
+#
+# $0: Admin name
+# $1: Region name
+YOU_WERE_EVICTED: "$[GRAY]$0 $[RED]evicted you from region $[GRAY]$1"
+
+
+# //region define normal <name>
+PLACE_SIGN: "$[DARK_GREEN]Region created. Now place a sign to connect."
+REGION_ALREADY_EXISTS: "$[RED]This region already exists. $[GRAY](You could connect a sign instead)"
+#
+# Not only for the define command, but also for linking signs
+# $0: Y-position 
+GROUND_LEVEL_SET: "$[GRAY]Ground-level set to $0"
+AUTO_SET_OWNER: "$[GRAY]Region owner detected: '$0'"
+
+
+# //region accept
+NOTHING_TO_ACCEPT: "$[RED]There is currently no offer you could accept."

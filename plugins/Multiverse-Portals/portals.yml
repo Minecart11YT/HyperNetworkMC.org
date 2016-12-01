@@ -1,0 +1,48 @@
+portals:
+  Hub2Factions:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: Minecart11
+    location: -2.0,4.0,-22.0:1.0,8.0,-22.0
+    world: Hub
+    destination: p:Factions
+  Factions:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: Minecart11
+    location: 329.0,72.0,204.0:329.0,73.0,204.0
+    world: world
+  CityPlots:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: Minecart11
+    location: -129.0,66.0,225.0:-129.0,67.0,225.0
+    world: world_JimmyCity
+  Hub2CityPlots:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: Minecart11
+    location: -1.0,4.0,20.0:2.0,10.0,20.0
+    world: Hub
+    destination: p:CityPlots
+  Hub2Skyblock:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    owner: Minecart11
+    location: -23.0,4.0,-2.0:-23.0,9.0,2.0
+    world: Hub

@@ -1,0 +1,8 @@
+name: theratterrees
+uuid: 1bc13050-ae52-4e6f-9ae0-249bf3b1a51b
+logoffworld: world
+balances:
+  world: 500.0
+  world_the_end: 0.0
+  Hub: 0.0
+  world_nether: 0.0

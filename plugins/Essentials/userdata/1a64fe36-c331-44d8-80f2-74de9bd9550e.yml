@@ -1,0 +1,29 @@
+lastAccountName: bradley8883
+timestamps:
+  login: 1443941083064
+  lastteleport: 1443941006151
+  logout: 1443941164422
+ipAddress: 101.184.159.33
+lastlocation:
+  world: world
+  x: 626.8927007431686
+  y: 70.0
+  z: 370.0623112200659
+  yaw: -175.13799
+  pitch: 19.799973
+logoutlocation:
+  world: world
+  x: 331.87594074952915
+  y: 65.0
+  z: 209.17436803603758
+  yaw: -127.44495
+  pitch: 22.224417
+homes:
+  home:
+    world: world
+    x: 627.0129086574199
+    y: 70.0
+    z: 369.7278842544366
+    yaw: -351.03296
+    pitch: 29.100006
+money: '450.0'

@@ -1,0 +1,25 @@
+money: '500.0'
+lastAccountName: Trix4Dayz
+timestamps:
+  login: 1453179663165
+  logout: 1453179616574
+  kits:
+    pro: 1453179896317
+    hyper: 1453179940782
+  lastteleport: 1453180118708
+ipAddress: 98.248.10.10
+lastlocation:
+  world: world
+  x: 376.09686452121673
+  y: 139.4323336466328
+  z: -721.6999999880791
+  yaw: 289.02487
+  pitch: 46.049847
+logoutlocation:
+  world: world
+  x: 344.5
+  y: 129.0
+  z: -717.5
+  yaw: -303.62585
+  pitch: 48.00001
+nickname: Tracy

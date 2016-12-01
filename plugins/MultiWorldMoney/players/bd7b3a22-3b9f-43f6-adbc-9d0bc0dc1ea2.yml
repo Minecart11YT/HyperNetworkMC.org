@@ -1,0 +1,9 @@
+name: Minecart11
+uuid: bd7b3a22-3b9f-43f6-adbc-9d0bc0dc1ea2
+logoffworld: world
+balances:
+  world_the_end: 0.0
+  world: 11520.0
+  Hub: 1.63899982086E11
+  world_nether: 0.0
+  world_JimmyCity: 0.0

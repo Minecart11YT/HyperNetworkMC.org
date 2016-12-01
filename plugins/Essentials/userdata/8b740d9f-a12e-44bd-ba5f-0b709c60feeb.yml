@@ -1,0 +1,30 @@
+lastAccountName: PyroManiac_0
+timestamps:
+  login: 1443911512467
+  lastteleport: 1443911818792
+  logout: 1443912578393
+ipAddress: 68.101.208.155
+lastlocation:
+  world: world
+  x: 785.8662773024761
+  y: 63.0
+  z: 126.01825931275576
+  yaw: -99.80996
+  pitch: 2.0999568
+logoutlocation:
+  world: world
+  x: 789.2826527286709
+  y: 63.0
+  z: 125.7769378081803
+  yaw: -98.61066
+  pitch: -4.724482
+money: '445.0'
+homes:
+  home:
+    world: world
+    x: 5338.640122229436
+    y: 9.0
+    z: -2821.6743332868787
+    yaw: -344.77872
+    pitch: 11.9999895
+nickname: "\xa79Shane\xa7f"

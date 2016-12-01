@@ -1,0 +1,6 @@
+[&a1&r] &aBe respectful.
+[&a2&r] &aNo harrasing other players.
+[&a3&r] &aNo excessive swearing or use of caps.
+[&a4&r] &aNo spamming/advertising/begging for staff.
+[&a5&r] &aNo hacking/modding/glitching/griefing.
+[&a6&r] &aReport bugs and bad players.

@@ -1,0 +1,23 @@
+lastAccountName: munkey04
+timestamps:
+  login: 1441646562618
+  lastteleport: 1441643364058
+  logout: 1441646570773
+ipAddress: 24.121.89.173
+lastlocation:
+  world: world_nether
+  x: 85.90196107092348
+  y: 201.0
+  z: -1765.0284917373895
+  yaw: -354.01553
+  pitch: 4.499907
+nickname: "\xa73\xa7lTwilight\xa7dEclipse\xa73Munkey"
+money: '6000.0'
+afk: false
+logoutlocation:
+  world: world_nether
+  x: 70.92500001192093
+  y: 202.0
+  z: -1716.9395319552068
+  yaw: -125.41467
+  pitch: 2.249923

@@ -1,0 +1,24 @@
+lastAccountName: DESPIKE
+timestamps:
+  login: 1443928863211
+  logout: 1443928881684
+  lastteleport: 1442791507450
+  mute: 0
+ipAddress: 170.72.82.225
+logoutlocation:
+  world: world
+  x: 333.96170232194083
+  y: 94.0
+  z: 204.33697506608465
+  yaw: -100.23398
+  pitch: 47.703568
+lastlocation:
+  world: world
+  x: 483.9493584097023
+  y: 227.75191895510153
+  z: 292.7696888816117
+  yaw: -243.74902
+  pitch: -8.194619
+nickname: "\xa7b\xa7lDes"
+afk: false
+muted: false

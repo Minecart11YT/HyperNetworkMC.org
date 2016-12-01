@@ -1,0 +1,54 @@
+#
+# This is the default configuration for all worlds / regions.
+# All settings in here can also be set for individual worlds and (parent-) regions by re-defining them
+# in the corresponding file or ingame.
+#
+# A detailed description of all settings can be found at
+# http://forward.phoenix-iv.de/rfs-help/config.yml
+#
+
+economic-settings:
+   #unit-type: Which unit should be used to calculate the costs    |    "region" - do not include region size
+   #           "m2" - square meter - only include surface | "m3" - cubic meter - include full amount of blocks
+    unit-type: m2
+    costs-per-unit:
+        buying-price: 100
+        selling-price: 80
+        taxes: 3
+        rent: 15
+    buyable: true
+    rentable: true
+    
+    
+permissions:
+    permission-required-buy: true
+    permission-required-rent: true
+    
+    max-regions-per-player: 0
+    max-regions-per-player-buy: #<Integer> (Set to enable)
+    max-regions-per-player-rent: #<Integer> (Set to enable)
+    
+    # max-rent-time in minutes. Zero -> infinite
+    max-rent-time: 0
+    
+    # Some settings can be specialized for groups as done below. If the player is in more than one group the highest
+    # figure counts.    To add a player to a group give him the permission "regionforsale.group.<GROUP-NAME>"
+    group-settings:
+        group-name-here:
+            max-regions-per-player: 5
+            max-rent-time: 10080
+        example-group-vip:
+            max-regions-per-player: 8
+            max-rent-time: 0
+
+
+region-rebuilding:
+    # Auto-rebuilding will 'bulldoze' a region after it was sold or the player wasn't able to pay anymore.
+    auto-rebuild: false
+    block-id: -1
+    block-data: 0
+    rebuildPlus-operations: []
+    rollback:
+        enabled: false
+        bottom-end: BOTTOM
+    ground-level: -1

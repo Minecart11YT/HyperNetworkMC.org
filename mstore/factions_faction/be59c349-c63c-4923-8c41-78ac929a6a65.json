@@ -1,0 +1,16 @@
+{
+  "name": "Omegah",
+  "description": "We are Powerful",
+  "createdAtMillis": 1450568838923,
+  "home": {
+    "w": "world",
+    "lx": 1451.063216558089,
+    "ly": 70.0,
+    "lz": 1307.0250136858103,
+    "p": 40.451675,
+    "y": -133.0509
+  },
+  "invitedPlayerIds": [
+    "bac54c99-cffc-404e-b0c2-c92f7263fae1"
+  ]
+}

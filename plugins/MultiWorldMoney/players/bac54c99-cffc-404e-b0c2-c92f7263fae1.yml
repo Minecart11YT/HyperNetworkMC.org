@@ -1,0 +1,8 @@
+name: Trix4Dayz
+uuid: bac54c99-cffc-404e-b0c2-c92f7263fae1
+logoffworld: world
+balances:
+  world: 500.0
+  world_the_end: 0.0
+  Hub: 0.0
+  world_nether: 0.0

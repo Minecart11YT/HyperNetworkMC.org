@@ -1,0 +1,45 @@
+lastAccountName: iLemon_Pie
+timestamps:
+  login: 1451780044778
+  logout: 1451781612593
+  lastteleport: 1451780455230
+  kits:
+    hyperpvp: 1451780493800
+    starter: 1451156384812
+    turbo: 1451098916954
+    pro: 1451780606759
+    hyper: 1451781024709
+ipAddress: 68.107.121.158
+logoutlocation:
+  world: world
+  x: 326.1574478770634
+  y: 80.1319373592292
+  z: 203.78990680303843
+  yaw: -225.2558
+  pitch: 66.70583
+lastlocation:
+  world: world_nether
+  x: 43.53886428385389
+  y: 139.4807108763317
+  z: -99.74744622515348
+  yaw: 71.16284
+  pitch: 8.846364
+nickname: "\xa74\xa7l\xa7kii\xa7eLemon\xa7aPie\xa72\xa7l\xa7kii"
+homes:
+  home:
+    world: world
+    x: 224.30000001192096
+    y: 80.0
+    z: -495.393361771276
+    yaw: -83.25363
+    pitch: 14.793159
+  base:
+    world: world
+    x: 43.16522543192931
+    y: 75.0
+    z: -403.0224508253891
+    yaw: -321.3623
+    pitch: 42.031265
+teleportenabled: true
+money: '0.0'
+afk: false

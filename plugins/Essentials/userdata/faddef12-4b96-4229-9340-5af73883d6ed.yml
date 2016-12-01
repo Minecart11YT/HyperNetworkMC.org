@@ -1,0 +1,34 @@
+lastAccountName: rdancer9
+timestamps:
+  login: 1441650781053
+  lastteleport: 1441650887336
+  logout: 1441650906360
+ipAddress: 67.2.207.58
+lastlocation:
+  world: world
+  x: 329.5325935662091
+  y: 68.0
+  z: 189.19208502366396
+  yaw: -324.5546
+  pitch: 10.199996
+money: '1125292.0'
+afk: false
+logoutlocation:
+  world: world_nether
+  x: 96.96426469464639
+  y: 201.0
+  z: -1738.8560189086324
+  yaw: 25.184265
+  pitch: 8.699884
+nickname: "\xa71\xa7lQueen\xa7b\xa7LDancer"
+homes:
+  home:
+    world: world_nether
+    x: 112.13582310635188
+    y: 215.0625
+    z: -1722.5631148440048
+    yaw: -32.565514
+    pitch: 27.599905
+mail:
+- "\xa76[\xa7rMinecart11\xa76] \xa7rsorry i was afk but im uploading a server advertisment\
+  \ on youtube"

@@ -1,0 +1,63 @@
+hub:
+  scoreboard:
+    enable: false
+    title: CraftBukkit
+  time:
+    day: true
+    night: false
+  doublejump:
+    enable: true
+    force: 3
+  teleportonjoin: true
+  cooldown:
+    enable: false
+    allowwalk: true
+    delay: 3
+  items:
+    clock:
+      enable: true
+      delay: 2
+    enable: true
+  launchpad:
+    enable: true
+    force: 2
+  weather:
+    clear: true
+    rain: false
+  chat:
+    enable: false
+  messages:
+    leaveMessageEnable: false
+    joinMessageEnable: false
+    motd: to <server>, {PLAYER}! &fType &c/help&f for a list of commands. Currently online {PLAYERLIST}
+  stacker:
+    enable: true
+  trail:
+    enable: true
+  hunger:
+    enable: false
+  pvp:
+    enable: false
+  gadgets:
+    bat:
+      enable: true
+    particle:
+      enable: true
+    paintball:
+      enable: true
+    bomb:
+      enable: true
+  bossbar:
+    title: WELCOME TO MINECART11'S HYPER FACTIONS
+  pets:
+    enable: true
+  location:
+    world: Hub
+    x: 0.0
+    y: 5.0
+    z: 0.0
+    pitch: 0
+    yaw: 180
+utilities:
+  updater:
+    enable: true

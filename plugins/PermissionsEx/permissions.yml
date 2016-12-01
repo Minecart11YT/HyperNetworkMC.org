@@ -1,0 +1,174 @@
+groups:
+  Guest:
+    default: true
+    prefix: '&e[&5Noob&e] '
+    permissions:
+    - essentials.afk
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.rules
+    - essentials.motd
+    - essentials.msg.*
+    - essentials.help
+    - essentials.suicide
+    - essentials.signs.use.free
+    - essentials.signs.use.buy
+    - essentials.signs.use.warp
+    - essentials.signs.use.disposal
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.*
+    - essentials.mail.*
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.delhome
+    - essentials.kit
+    - essentials.kits.starter
+    - regionforsale.buy
+    - regionforsale.rent
+    - regionforsale.sell
+    - regionforsale.unrent
+    - regionforsale.seemembers
+    - regionforsale.see-if-bought
+    worlds:
+      world:
+        permissions:
+        - essentials.kit
+        - essentials.kits.starter
+  Donator:
+    default: false
+    prefix: '&0[&2Pro&0] '
+    permissions:
+    - essentials.back
+    - essentials.sell
+    - essentials.worth
+    - essentials.me
+    - essentials.vanish
+    - essentials.setspawn
+    - essentials.hat
+    - essentials.signs.use.trade
+    - essentials.signs.use.sell
+    - essentials.signs.create.trade
+    - essentials.signs.create.sell
+    - essentials.signs.break.trade
+    - essentials.signs.break.trade
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.nick.magic
+    - essentials.nick.format
+    - essentials.kit
+    - essentials.kits.Pro
+    - essentials.back
+    inheritance:
+    - guest
+  Moderator:
+    default: false
+    prefix: '&e[&cMod&e] '
+    permissions:
+    - essentials.ban.*
+    - essentials.broadcast
+    - essentials.give
+    - essentials.item
+    - essentials.eco
+    - essentials.clearinventory.others
+    - essentials.clearinventory
+    - essentials.vanish.see
+    - essentials.essentials
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.tempban
+    - essentials.weather
+    - essentials.unban
+    - essentials.unban.notify
+    inheritance:
+    - donator
+  Owner:
+    default: false
+    prefix: '&a[&c&lOwner&a] '
+    permissions:
+    - '*'
+    - essentials.*
+    - ls.admin
+    - essentials.god.*
+    - essentials.signs.break.buy
+    - essentials.signs.break.free
+    - essentials.signs.create.free
+    - essentials.signs.create.warp
+    - essentials.signs.break.warp
+    - essentials.signs.break.disposal
+    - essentials.signs.create.disposal
+    - vault.admin
+    - lagg.*
+    inheritance:
+    - moderator
+  admin:
+    prefix: '&4[&cAdmin&4]&a '
+    permissions:
+    - '*'
+  coowner:
+    prefix: '&8[&6Co-Owner&8]&f '
+    permissions:
+    - '*'
+  turbo:
+    prefix: '&8[&6Turbo&8]&f '
+    inheritance:
+    - Donator
+  hyper:
+    prefix: '&9[&BHyper&9]&f '
+    permissions:
+    - essentials.kit
+    - essentials.kits.Hyper
+    - essentials.colour.chat
+    inheritance:
+    - Donator
+  helper:
+    prefix: '&8[&2Helper&8]&f '
+    permissions:
+    - essentials.mute
+    - essentials.mute.notify
+    inheritance:
+    - donator
+users:
+  CheeseSaber:
+    group:
+    - Admin
+  Minecart11:
+    group:
+    - Owner
+  rdancer9:
+    group:
+    - Moderator
+  ClockOLot:
+    group:
+    - coowner
+  BunnyHops219:
+    group:
+    - noob
+  DESPIKE:
+    group:
+    - coowner
+    permissions:
+    - '*'
+  MrVase:
+    group:
+    - Guest
+  PyroManiac_0:
+    group:
+    - Guest
+  iLemon_Pie:
+    group:
+    - moderator
+  Pro_Strategiez:
+    group:
+    - admin
+  M_Tim:
+    group:
+    - helper
+  Trix4Dayz:
+    group:
+    - helper

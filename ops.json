@@ -1,0 +1,68 @@
+[
+  {
+    "uuid": "f63b57bb-b721-456c-89ee-0bf18fa780df",
+    "name": "munkey04",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3f0fa27b-9cef-48de-a431-5787343fdf81",
+    "name": "CheeseSaber",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "91224aef-91a5-4b97-8801-a5fc75bdbbcb",
+    "name": "RDancer",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bd7b3a22-3b9f-43f6-adbc-9d0bc0dc1ea2",
+    "name": "Minecart11",
+    "level": 8,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "faddef12-4b96-4229-9340-5af73883d6ed",
+    "name": "rdancer9",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "deb499d8-6bf6-4151-be8b-36cc4e444146",
+    "name": "iLemon_Pie",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "97f5aa09-dbc6-4e14-bd51-90c865c5b91d",
+    "name": "DESPIKE",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "79312a72-b73b-4892-9788-b808da221486",
+    "name": "Pro_Strategiez",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0d81b5fb-6571-4d8a-a4c8-7bf6dcfcd827",
+    "name": "ClockOLot",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f398bb74-8179-4e7d-8705-8fe0ab5acb6d",
+    "name": "moonwalker21904",
+    "level": 1,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "25966168-dc9c-360c-8f32-ed022bfa1070",
+    "name": "Herobrine",
+    "level": 8,
+    "bypassesPlayerLimit": false
+  }
+]

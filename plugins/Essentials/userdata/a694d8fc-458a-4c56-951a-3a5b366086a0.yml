@@ -1,0 +1,30 @@
+lastAccountName: MrVase
+timestamps:
+  login: 1442778334857
+  lastteleport: 1442778208229
+  logout: 1442778276013
+ipAddress: 77.213.51.16
+lastlocation:
+  world: world
+  x: 329.5
+  y: 88.0
+  z: 204.5
+  yaw: 182.47902
+  pitch: 35.175587
+logoutlocation:
+  world: world
+  x: 308.28321421267066
+  y: 117.26192293434259
+  z: 196.8038743115926
+  yaw: -42.330627
+  pitch: 59.849987
+homes:
+  home:
+    world: world
+    x: 2901.82916755559
+    y: 71.0
+    z: 5083.836660906898
+    yaw: 232.77295
+    pitch: 16.799992
+nickname: "\xa7DMrVase"
+afk: false

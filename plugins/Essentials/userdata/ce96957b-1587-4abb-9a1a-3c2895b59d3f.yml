@@ -1,0 +1,21 @@
+lastAccountName: VanillaPixel_
+timestamps:
+  login: 1442705315391
+  logout: 1442708128550
+  lastteleport: 1442706309337
+ipAddress: 1.123.162.43
+logoutlocation:
+  world: world
+  x: 1288.699999988079
+  y: 58.0
+  z: -7.300000011920934
+  yaw: -92.16761
+  pitch: 60.600006
+lastlocation:
+  world: world
+  x: 329.5098229244525
+  y: 68.0
+  z: 182.601508586339
+  yaw: 351.63864
+  pitch: -6.997873
+money: '400.0'

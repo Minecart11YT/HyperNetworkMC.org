@@ -1,0 +1,359 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: none
+nickname-prefix: '~'
+max-nick-length: 30
+change-displayname: true
+teleport-cooldown: 0
+teleport-delay: 4
+teleport-invulnerability: 4
+heal-cooldown: 60
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+kits:
+  Starter:
+    delay: 21600
+    items:
+    - 267 1
+    - 256 1
+    - 258 1
+    - 257 1
+    - 17 32
+    - 320 64
+    - 309 1
+    - 308 1
+    - 307 1
+    - 306 1
+  Turbo:
+    delay: 86400
+    items:
+    - 310 1 name:Turbo_Helmet protection_environmental:3 durability:3
+    - 311 1 name:Turbo_Chestplate protection_environmental:3 durability:3
+    - 312 1 name:Turbo_Leggings protection_environmental:3 durability:3
+    - 313 1 name:Turbo_Boots protection_environmental:3 durability:3
+    - 276 1 name:Turbo_Sword damage_all:3 durability:3 fire_aspect:2
+    - 278 1 name:Turbo_Pickaxe dig_speed:3 durability:3
+    - 279 1 name:Turbo_Axe dig_speed:4 durability:3
+    - 277 1 name:Turbo_Shovel dig_speed:4 durability:3
+    - 322:1 2 name:TURBO_APPLES
+    - 364 64
+    - 364 64
+    - 322 10
+    - 46 64
+    - 46 64
+    - 49 64
+    - 49 64
+  Pro:
+    delay: 86400
+    items:
+    - 310 1 name:Pro_Helmet
+    - 311 1 name:Pro_Chestplate
+    - 312 1 name:Pro_Leggings
+    - 313 1 name:Pro_Boots
+    - 276 1 name:Pro_Sword
+    - 261 1 name:Pro_Bow arrow_damage:4 arrow_knockback:2
+    - 373:8233 1
+    - 373:8226 1
+    - 322 8
+    - 364 32
+    - 49 64
+    - 46 64
+  Hyper:
+    delay: 259200
+    items:
+    - 310 1 name:Hyper_Helmet protection_environmental:4 durability:3
+    - 311 1 name:Hyper_Chestplate protection_environmental:4 durability:3
+    - 312 1 name:Hyper_Leggings protection_environmental:4 durability:3
+    - 313 1 name:Hyper_Boots protection_environmental:4 durability:3
+    - 276 1 damage_all:5 knockback:2 fire_aspect:2
+    - 261 1 name:SUPER_HYPER_BOW arrow_damage:5 arrow_knockback:2 arrow_fire:1 arrow_infinite:1
+    - 322:1 4
+    - 373:8233 1
+    - 373:8226 1
+    - 49 64
+    - 49 64
+    - 49 64
+    - 46 64
+    - 46 64
+    - 262 1 name:SUPER_HYPER_ARROW
+  Bowfight:
+    delay: 0
+    items:
+    - 261 1
+    - 262 64
+    - 262 64
+    - 306 1
+    - 307 1
+    - 308 1
+    - 309 1
+    - 322 5
+    - 364 20
+  HyperPvP:
+    delay: 0
+    items:
+    - 276 1 damage_all:5 knockback:2 fire_aspect:2
+    - 261 1 name:SUPER_HYPER_BOW arrow_damage:5 arrow_knockback:2 arrow_fire:1 arrow_infinite:1
+    - 322:1 4
+    - 373:8233 1
+    - 373:8226 1
+    - 262 1 name:SUPER_HYPER_ARROW
+    - 313 1 name:Hyper_Boots protection_environmental:4 durability:3
+    - 312 1 name:Hyper_Leggings protection_environmental:4 durability:3
+    - 311 1 name:Hyper_Chestplate protection_environmental:4 durability:3
+    - 310 1 name:Hyper_Helmet protection_environmental:4 durability:3
+enabledSigns:
+- color
+- balance
+- buy
+- sell
+- trade
+- free
+- disposal
+- warp
+- kit
+- mail
+- enchant
+- gamemode
+- heal
+- info
+- spawnmob
+- repair
+- time
+- weather
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: false
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 120
+auto-afk-kick: 1200
+freeze-afk-players: true
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: true
+world-teleport-permissions: true
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: false
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 1.0
+max-walk-speed: 1.0
+mails-per-minute: 10
+update-bed-at-daytime: true
+world-home-permissions: true
+sethome-multiple:
+  default: 1
+  vip: 3
+  staff: 6
+tpa-accept-cancellation: 120
+starting-balance: 500
+currency-symbol: $
+max-money: 10000000000000
+min-money: 0
+economy-log-enabled: false
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: <{DISPLAYNAME}> {MESSAGE}
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  spawnpoint: none
+  kit: starter
+respawn-listener-priority: high
+respawn-at-home: false

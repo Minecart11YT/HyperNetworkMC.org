@@ -1,0 +1,25 @@
+money: '9988526409332.0'
+lastAccountName: Pro_Strategiez
+timestamps:
+  login: 1453178081271
+  kits:
+    pro: 1453179728602
+    hyper: 1453178121467
+  logout: 1453180439398
+  lastteleport: 1453179830139
+ipAddress: 73.70.144.107
+nickname: "\xa74Pro_"
+lastlocation:
+  world: world
+  x: 356.7493558835409
+  y: 126.25628975023535
+  z: -712.3426524746583
+  yaw: 227.8248
+  pitch: -48.149975
+logoutlocation:
+  world: world
+  x: 348.9900445677486
+  y: 129.0
+  z: -717.7731258979178
+  yaw: 165.72717
+  pitch: 10.94994

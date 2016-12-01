@@ -1,0 +1,30 @@
+lastAccountName: CheeseSaber
+timestamps:
+  login: 1450984126393
+  lastteleport: 1450985942675
+  logout: 1450986372427
+ipAddress: 99.117.114.62
+lastlocation:
+  world: world
+  x: -410.5153020399653
+  y: 112.6993199170339
+  z: 4689.885696347116
+  yaw: -272.69708
+  pitch: -12.750016
+money: '1033500'
+homes:
+  home:
+    world: world
+    x: -334.7432394239825
+    y: 232.0
+    z: 4982.40598331872
+    yaw: -46.951385
+    pitch: 71.40002
+logoutlocation:
+  world: world
+  x: -317.2293194025563
+  y: 247.07329090764557
+  z: 4967.8027003632715
+  yaw: 56.399055
+  pitch: 85.350006
+afk: false

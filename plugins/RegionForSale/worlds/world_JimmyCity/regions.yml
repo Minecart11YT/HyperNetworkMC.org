@@ -1,0 +1,171 @@
+house1:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -53, 70, 223
+shopping1:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -131, 68, 163
+apartments2:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -111, 65, 263
+house3:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -66, 70, 263
+house4:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -57, 70, 263
+house5:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -46, 70, 263
+shopping2:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -46, 70, 243
+apartment3:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -55, 70, 243
+apartment4:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -65, 70, 243
+apartments1:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -117, 68, 176
+office2:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -153, 65, 244
+skyscraper1:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -159, 69, 191
+apartment5:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -163, 69, 191
+office3:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -119, 66, 227
+apartment6:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -110, 68, 227
+industry1:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -40, 70, 267
+industrial2:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -36, 68, 255
+house6:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -44, 69, 223
+shop3:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        signs:
+        - -36, 68, 232

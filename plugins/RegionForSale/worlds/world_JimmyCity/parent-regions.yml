@@ -1,0 +1,16 @@
+apartment1:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        priority: 0
+industry2:
+    economic-settings:
+        costs-per-unit: {}
+    permissions: {}
+    region-rebuilding:
+        rollback: {}
+    info:
+        priority: 0
